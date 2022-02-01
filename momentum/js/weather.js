@@ -1,4 +1,6 @@
 //보안상 API_KEY는 제외
+const API_KEY = "4ac3938800d33fc2fc181243a84efc1c";
+
 function onGeoOk(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude; //위도와 경도를 저장
